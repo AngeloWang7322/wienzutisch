@@ -4,7 +4,6 @@
 
 <template>
     <AppLayout>
-
     </AppLayout>
 </template>
 

@@ -1,8 +1,12 @@
 /* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
+  --vt-c-main: #525ea8;
 
   --vt-c-black: #181818;
   --vt-c-black-soft: #222222;
@@ -57,16 +61,15 @@
   margin: 0;
   font-weight: normal;
 }
-
 body {
+  background-color: white;
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
   line-height: 1.8;
   font-family:
+    Short Stack, cursive,
     Roboto,
     Inter,
     -apple-system,
@@ -83,4 +86,20 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #293163;
+
+
 }
+.amatic-sc-regular {
+  font-family: Amatic SC, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: Amatic SC, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
